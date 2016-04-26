@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery-2.1.4.js">
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href='fonts/openSans.css' rel='stylesheet' type='text/css'>
+  <title>Quiz</title>
+
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+  
+  <div id="score-wraper">
+    <h2>question #<b id="question-number"></b></h2>
+    <h2><span>score </span><b id="score">0/0</b></h2>
+  </div>
+  <div id="card-wraper">
+    <div class="card">
+      <h2 id="question-title"></h2>
+      <p id="question-subtitle"></p>
+     
+    <div id="answer-section">        
+        <button data-index='0'></button>
+        <button data-index='1'></button>
+        <button data-index='2'></button>
+        
+    </div>
+    
+    <div id="result-section">
+      <p>You achieved <b id="score-achieved"></b> points</p>   
+      <p>Out of possible <b id="score-possible"></b> points</p> 
+      
+      <div id="cat"></div>
+        
+    </div>
+  
+  </div>
+  </div>
+ <script src="js/index.js"></script> 
+</body>
+</html>

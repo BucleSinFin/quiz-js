@@ -1,0 +1,108 @@
+head,html {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#score-wraper {
+  background-color: #fff;
+  width: 80%;
+  max-width: 500px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 5px 20px;
+  border-left: solid 4px #cc0000;
+}
+#score-wraper h2 {
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+#score-wraper h2:first-of-type {
+  float: left;
+}
+#score-wraper h2:first-of-type b {
+  color: #3366ff;
+}
+#score-wraper h2:last-of-type {
+  float: right;
+  font-weight: bold;
+  color: #3366ff;
+}
+#score-wraper span {
+  font-weight: 100;
+  color: #999;
+  font-size: 12px;
+  text-transform: none;
+}
+
+
+#card-wraper {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 5px;
+  border-left: solid 4px #cc0000;
+}
+.card {
+  width: 100%;
+}
+
+#card-wraper h2 {
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #6699ff;
+}
+#card-wraper h2::first-letter{
+  font-weight: 500;
+  font-size: 30px
+}
+#card-wraper p {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #777;
+  font-weight: 300; 
+}
+
+#result-section {
+  display: none;
+  margin-top: 20px;
+}
+
+#result-section #cat {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/catderp.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#answer-section {
+  margin-top: 40px;
+}
+#answer-section button {
+  display: block;
+  border: solid 1px #6699ff;
+  background: none;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 10px 0 0;
+  font-weight: 500;
+}
+
